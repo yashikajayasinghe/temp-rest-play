@@ -1,0 +1,31 @@
+Install Docker desktop for windows and run the Student info app (follow the instructions: Section 02: Setting up the student sample application)
+
+- setup maven, junit and rest assured
+    -follow the instructions in Section 3 lesson 08
+
+- there are two types of test writing styles:
+        .given().when().then()
+        or
+        given().expect().when()
+
+-  test base class in the support package
+        * with Beforeall annotation to include all the common url related information.
+
+- build the request body in json
+    -http://jsonviewer.stack.hu/
+    - but if you create a pojo class and get create a object and using gson dependency (add to pom.xml and Go to File -> Invalidate Caches/ Restart and click the same again)
+    you will be able to easily convert Student object to a json string and import into the request body.
+
+
+- Build the request body with lombok builder
+    - Add lombok dependency to maven
+    - Install Lombok plugin
+    - Restart intelliJ
+    - refer to com.student.model.Student class with @builder annotation
+    - create student json object easily with RequestBuilder.
+
+- Using WireMock server for stubbing
+    - Add WireMock Maven dependency to the POM xml (https://mvnrepository.com/artifact/com.github.tomakehurst/wiremock)
+    -
+
+

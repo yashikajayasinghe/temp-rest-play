@@ -1,0 +1,17 @@
+{
+  "firstName": "Reece",
+  "lastName": "Jason",
+  "email": "tincidunt.dui@ultricessit.co.uk",
+  "programme": "Computer Science",
+  "courses": [
+    "Calculus",
+    "Algorithms",
+    "Software Development",
+    "Ethics"
+  ],
+  "addresses": {
+    "addressLine1":"ggdh",
+    "city": "hshdf",
+    "country": "test"
+  }
+}

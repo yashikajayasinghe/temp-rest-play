@@ -1,0 +1,5 @@
+com\studentapp\tests\GetStudentInfoWithMock.class
+Support\TestBase.class
+RequestBuilder\PostStudentInfoRequest.class
+com\studentapp\tests\PostStudentInfo.class
+com\studentapp\tests\GetStudentInfo.class
